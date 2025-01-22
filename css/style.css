@@ -718,14 +718,14 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.checkbox:checked + .modal-checkbox-user .modal-checkbox-custom {
+.checkbox:checked + label .modal-checkbox-custom {
   fill: #f4f4fd;
   border: none;
   background-color: #404bbf;
 }
-.checkbox:focus + .modal-checkbox-user .modal-checkbox-custom {
+/* .checkbox:focus + .modal-checkbox-user .modal-checkbox-custom {
   border: 1px solid #404bbf;
-}
+} */
 
 .checkbox-policy-link {
   line-height: 1.33;
